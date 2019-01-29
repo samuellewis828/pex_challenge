@@ -1,0 +1,14 @@
+[package]
+name = "pex_challenge"
+version = "0.1.0"
+authors = ["Samuel Lewis"]
+edition = "2018"
+
+[[bin]]
+name = "pex_challenge"
+path = "src/lib.rs"
+
+
+[dependencies]
+clap = "2.32.0"
+image = "0.21.0"
