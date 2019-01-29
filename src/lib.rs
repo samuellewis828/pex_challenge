@@ -172,10 +172,6 @@ pub fn main() {
         output.write_all(b"\n").unwrap();
     }
     println!("Check output.csv for the results.");
-
-
-    // TODO
-    // Did split logic wrong - 3x3 means give back 9 cells, i take as many 3x3 cells as possible...
 }
 
 
