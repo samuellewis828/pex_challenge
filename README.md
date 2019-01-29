@@ -15,7 +15,10 @@ Example command, as run from /vagrant:
 
 Possible future work:
 
-Adding FFI bindings using rust-bindgen for ffmpeg - or get the existing ones working
-Multithreading, with Rayon, Tokio, or similar; revise performance of image analysis
-Unit testing
-Benchmarking
+    Adding FFI bindings using rust-bindgen for ffmpeg - or get the existing ones working
+
+    Multithreading, with Rayon, Tokio, or similar; revise performance of image analysis
+
+    Unit testing
+
+    Benchmarking
