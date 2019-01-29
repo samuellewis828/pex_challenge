@@ -11,3 +11,11 @@ Once logged in, cd to /vagrant and run "./ffmpeg_wrapper width height input_vide
 Example command, as run from /vagrant:
 
 ./ffmpeg 3 3 input_video.mp4
+
+
+Possible future work:
+
+Adding FFI bindings using rust-bindgen for ffmpeg - or get the existing ones working
+Multithreading, with Rayon, Tokio, or similar; revise performance of image analysis
+Unit testing
+Benchmarking
